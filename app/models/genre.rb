@@ -1,3 +1,3 @@
 class Genre < ActiveRecord::Base
-  has
+  has_many :songs
 end
